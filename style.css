@@ -1,0 +1,24 @@
+*{
+  /* color-scheme: dark light; */
+}
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 90vh;
+background-color: #193ef5;
+}
+button{
+  transition: .2s;
+background-color: white;
+color: #193ef5;
+padding: 10px 20px;
+border-radius: 10px;
+font-size: 30px;
+border: 2px solid white;
+cursor: pointer;
+}
+button:hover , button:active{
+background-color: #193ef5;
+color: white;
+}
